@@ -72,6 +72,45 @@ const products={
         "19,4 MiB"
       ]
     ]
+  },
+  "noon": {
+    "name": "Noon",
+    "version": "0.1.0",
+    "category": "SÍNTESE & COMPOSIÇÃO",
+    "description": "Dê forma ao que você ouve. Crie timbres, efeitos e pequenas trilhas em camadas, com uma interface visual que também é um script editável.",
+    "image": "assets/noon-interface.png",
+    "features": [
+      "Até 8 camadas com instrumentos por síntese, filtro, distorção, eco e reverb.",
+      "Guias de acordes e seções para compor; exportação WAV estéreo e projetos .noon editáveis.",
+      "Visual e Noon Script sincronizados. Copie para sua LLM, cole o resultado e aplique o script validado."
+    ],
+    "requirements": "Windows 10/11 x64 ou celular/tablet com Android 7 ou superior. Extraia o ZIP completo no Windows e abra noon.exe. O runtime Visual C++ acompanha o pacote.",
+    "note": "Primeira versão: até 16 compassos e 60 segundos de arranjo, mais a cauda dos efeitos. O teclado toca uma nota por vez. Sem samples importados, MIDI, VST, motor em tempo real ou reconhecimento de músicas. A LLM é usada externamente, por copiar/colar. Player real validado no Windows; uso em aparelho Android ainda precisa de validação. Exporte .noon para backup.",
+    "tag": "noon-v0.1.0",
+    "prefix": "Noon-0.1.0",
+    "windows": true,
+    "downloads": [
+      [
+        "Windows x64 · ZIP",
+        "Windows-x64.zip",
+        "13,2 MiB"
+      ],
+      [
+        "Android ARM64 · recomendado",
+        "arm64.apk",
+        "17,5 MiB"
+      ],
+      [
+        "Android ARM32",
+        "arm32.apk",
+        "15,0 MiB"
+      ],
+      [
+        "Android x64",
+        "x64.apk",
+        "18,9 MiB"
+      ]
+    ]
   }
 };
 const dialog=document.querySelector('dialog');let lastFocus;

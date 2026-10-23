@@ -24,6 +24,14 @@
         "windows",
         "android"
       ]
+    },
+    {
+      "id": "noon",
+      "version": "0.1.0",
+      "platforms": [
+        "windows",
+        "android"
+      ]
     }
   ],
   "policy": "Somente produtos explicitamente selecionados pelo proprietário entram no catálogo público. Código dos aplicativos permanece privado."
