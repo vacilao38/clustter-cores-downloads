@@ -1,28 +1,23 @@
-# Chain 1.0 · Windows
+# Chain 1.1.1 · Windows e Android
 
-Windows 10/11 x64. Extraia a pasta inteira do ZIP e abra **chain.exe**. As DLLs, o runtime C++ e a pasta `data` precisam permanecer junto do executável. Não é necessário instalar o Flutter.
+Windows 10/11 x64: use o instalador `.exe` e abra pelo menu Iniciar. Feche o Chain antes de atualizar; os dados de suporte são preservados. Android 7+: prefira ARM64 em aparelhos atuais, instalando o APK por cima sem desinstalar ou limpar dados.
 
-Crie uma coleção, escolha um nome, categoria e capa e adicione seus links. Títulos, notas, etiquetas, favoritos e ordem são editáveis. Ctrl+N cria coleção; Ctrl+F busca.
+Organize links em coleções com capas, títulos, notas, etiquetas e favoritos. Cada link tem botão de copiar, adaptado ao celular e às telas maiores. Exporte `.chain` para guardar backups com as capas. Biblioteca e exportações locais não são um cofre criptografado.
 
-As coleções são salvas no diretório de suporte da aplicação, no perfil do Windows. Exporte `.chain` pelo menu para guardar um backup com as capas. Importar um arquivo cria cópias. Exportações não possuem senha; guarde-as onde considerar apropriado.
+## Conectar aparelhos
 
-## Conectar seus aparelhos
+1. Abra esta versão nos dois aparelhos. Para redes diferentes, use **Conexões → Configurar conexão entre redes** e informe o array ICE da sua credencial TURN em cada aparelho. Nenhuma credencial pessoal acompanha o pacote. Não use a Secret Key da conta.
+2. Crie uma chave de pareamento e cole no outro aparelho. A chave vale dez minutos e é consumida no primeiro pareamento. Chaves antigas da versão 1.0 só possuem endereços locais; faça o pareamento com uma chave atual para WebRTC.
+3. Depois, toque no aparelho de confiança para reconectar e use **Enviar alterações** ou **Puxar mais recentes**, sem nova chave a cada envio. Mantenha ambos os apps abertos.
 
-1. Abra o Chain nos dois aparelhos na mesma rede Wi-Fi ou hotspot.
-2. Em Conexões, crie uma chave e copie-a para o campo de pareamento do outro aparelho.
-3. O convite vale dez minutos e é consumido no primeiro pareamento. Os aparelhos passam a lembrar um ao outro.
-4. Depois, toque no aparelho lembrado para reconectar e use **Enviar alterações** ou **Puxar mais recentes**. A conexão ativa permite vários envios sem outra chave.
+WebRTC prioriza conexão direta. PeerServer Cloud negocia identificadores e informações de conexão, incluindo IPs. Um TURN configurado retransmite os pacotes criptografados se o caminho direto falhar. Esses serviços não recebem a biblioteca em texto legível nem a chave de pareamento. O Open Relay público padrão não respondeu aos testes desta rede: configure e valide um TURN próprio para contar com fallback. Disponibilidade, franquias e políticas de firewall se aplicam; nenhuma conexão é garantida em qualquer rede.
 
-Se o firewall do Windows solicitar, permita acesso à rede privada. O canal usa TCP 49494. Os próprios aparelhos trocam os dados; não há servidor intermediário nem necessidade de internet na mesma rede. Mantenha o Chain aberto nos dois lados. Se o IP mudar, atualize o endereço nas opções do aparelho lembrado.
+Na mesma rede, **Criar chave apenas para rede local** usa TCP 49494 sem internet. Permita rede privada no firewall do Windows se solicitado. AES-256-GCM protege os dois transportes; credenciais de confiança e TURN ficam no armazenamento seguro do aparelho. **Esquecer aparelho** revoga a confiança neste dispositivo.
 
-Para redes diferentes, um endereço precisa ser acessível diretamente por IPv6 público ou por redirecionamento de porta no roteador. CGNAT e firewalls podem impedir esse acesso. Não há travessia automática de NAT.
+Revisões divergentes geram cópias de conflito; exclusões não se propagam. Limites: 500 coleções, 20.000 links e 16 MiB por biblioteca/exportação. Guarde backups.
 
-As mensagens são autenticadas e criptografadas com AES-256-GCM. As credenciais lembradas ficam no armazenamento seguro do sistema. **Esquecer aparelho** revoga a confiança neste dispositivo.
+## Update e validação
 
-## Preservar seu trabalho
+O aviso de nova versão aparece dentro do app e abre a página oficial para download. A primeira atualização a partir de versões antigas é manual; não existe instalação automática ou notificação com o app fechado.
 
-As versões são comparadas pelo histórico de revisões. Alterações divergentes geram uma cópia **· conflito**; exclusões não se propagam. Enviar/puxar não apaga silenciosamente sua versão local.
-
-Limites: 500 coleções, 20.000 links e 16 MiB por biblioteca/exportação. Capas são reduzidas para até 960 px por eixo. O aplicativo não é um cofre criptografado para arquivos locais.
-
-O pacote foi compilado e sua inicialização foi verificada no Windows. A troca entre aparelhos físicos e os seletores Android ainda precisam de validação em hardware. Licenças dos componentes acompanham a pasta `licenses` e a tela **Sobre o Chain → Ver licenças**.
+Análise e testes automatizados aprovados; integração Windows validou conexão direta, TURN forçado e o aviso Update. Instalador e APKs foram compilados e conferidos. Teste celular/PC nas redes reais e uso em Android físico continuam pendentes. Instalador Windows sem certificado de editor; APKs mantêm a assinatura anterior de desenvolvimento. Confira `SHA256SUMS.txt`.

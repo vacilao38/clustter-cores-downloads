@@ -1,16 +1,19 @@
 # Clustter cores — Downloads
 
-Canal público de distribuição dos instaladores selecionados de Folk, Lake, Chain e Noon.
+Canal público de distribuição dos aplicativos selecionados de Folk, Lake, Chain, Noon e Pile. O site é [Clustter cores](https://vacilao38.github.io/clustter-cores-downloads/).
 
-O código-fonte dos aplicativos é privado. Este repositório contém apenas informações públicas de distribuição. Baixe os instaladores nas Releases e confira os arquivos SHA256SUMS.txt de cada versão.
+Versões atuais: **Folk 1.0.1 · Lake 1.2.1 · Chain 1.1.1 · Noon 0.1.1 · Pile 0.1.1**. Cada release inclui instalador Windows x64 `.exe`, APKs Android ARM64/ARM32/x64 e `SHA256SUMS.txt`. Builds e downloads antigos continuam no histórico.
 
-Folk 1.0.0: Windows x64 e Android 7+ (ARM64, ARM32 e x64). Transcrição offline, modelos incluídos. Mantenha o app aberto para processar. Lake 1.2.0: Windows 10/11 x64 (ZIP portátil) e Android 7+ (ARM64, ARM32 e x64), animação vetorial com exportação PNG/SVG; não exporta MP4/GIF.
+O instalador Windows é por usuário, cria atalho no menu Iniciar e preserva projetos/preferências ao atualizar. Feche o aplicativo antes de instalar no mesmo local. Usuários de ZIP fazem esta primeira instalação manual. No Android, instale por cima sem desinstalar nem limpar dados: os APKs mantêm o certificado anterior de desenvolvimento. Android físico permanece pendente de validação.
 
-Versões Android assinadas para desenvolvimento e instalação direta, sem publicação na Play Store. Validação em hardware Android ainda pendente. Licenças e avisos dos componentes acompanham os aplicativos.
+O protocolo **Update** avisa dentro do app sobre uma versão superior publicada e abre a página oficial para baixar. Não instala automaticamente nem avisa com o app fechado. Apps anteriores ao protocolo precisam desta primeira atualização manual. O feed `docs/updates.json` contém apenas metadados públicos e não recebe projetos, arquivos ou identificadores de aparelho.
 
-Chain 1.0.0: coleções de links locais para Windows x64 e Android 7+. Capas, etiquetas, favoritos, backups .chain e envio/busca P2P sem servidor intermediário. Na mesma rede pode funcionar sem internet; entre redes exige IPv6 acessível ou porta redirecionada. APKs de desenvolvimento; validação Android físico pendente. [Guia](CHAIN.md).
+`docs/catalog.json` e o feed são gerados pelo repositório de código do site; não anunciar versões antes de publicar/verificar os pacotes. Este repositório de distribuição não inclui código privado, bibliotecas de uso ou credenciais. Folk, Lake, Chain e Pile mantêm fontes privadas; Noon e o componente genérico Update são públicos.
 
+- Folk: transcrição offline com modelos incluídos, Windows x64 com AVX2; mantenha aberto durante o processamento.
+- Lake: animação vetorial e exportação PNG/SVG; ainda sem MP4/GIF.
+- [Chain](CHAIN.md): coleções de links, copiar com um toque e P2P criptografado entre aparelhos, com negociação WebRTC e TURN configurável entre redes.
+- Noon: síntese, até oito camadas e 60 segundos, WAV/.noon e script para LLM externa; sem samples/MIDI/VST ou motor em tempo real.
+- [Pile](PILE.md): gerenciador visual, prévias e organização local; confira os limites de Android, IA e figurinhas no guia.
 
-Noon 0.1.0: síntese de timbres, efeitos e trilhas em camadas, guias de acordes/seções e exportação WAV/.noon. Windows 10/11 x64 e Android 7+ (ARM64, ARM32 e x64). Até 8 camadas e 60 segundos. Script editável para trabalhar com uma LLM externa por copiar/colar; sem samples importados, MIDI, VST ou motor em tempo real. Player Windows validado; Android físico pendente.
-
-Pile 0.1.0: organização local de arquivos para Windows x64 e Android 7+ (celular/tablet). Categorias, coleções com capas, metadados, regras sob demanda, revisão de duplicados e IA opcional por lote autorizado. Código-fonte privado por decisão do proprietário. [Guia e limites](PILE.md).
+Licenças e avisos acompanham os aplicativos. Consulte os requisitos e limites na apresentação de cada produto antes de baixar.
