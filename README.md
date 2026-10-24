@@ -12,3 +12,5 @@ Chain 1.0.0: coleções de links locais para Windows x64 e Android 7+. Capas, et
 
 
 Noon 0.1.0: síntese de timbres, efeitos e trilhas em camadas, guias de acordes/seções e exportação WAV/.noon. Windows 10/11 x64 e Android 7+ (ARM64, ARM32 e x64). Até 8 camadas e 60 segundos. Script editável para trabalhar com uma LLM externa por copiar/colar; sem samples importados, MIDI, VST ou motor em tempo real. Player Windows validado; Android físico pendente.
+
+Pile 0.1.0: organização local de arquivos para Windows x64 e Android 7+ (celular/tablet). Categorias, coleções com capas, metadados, regras sob demanda, revisão de duplicados e IA opcional por lote autorizado. Código-fonte privado por decisão do proprietário. [Guia e limites](PILE.md).
