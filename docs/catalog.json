@@ -1,0 +1,232 @@
+{
+  "schema": 1,
+  "brand": "Clustter cores",
+  "products": {
+    "folk": {
+      "name": "Folk",
+      "version": "1.0.0",
+      "category": "TRANSCRIÇÃO LOCAL",
+      "description": "Da voz para o que importa. Transcreva áudio e vídeo no próprio aparelho, com modelos incluídos e sem enviar o conteúdo para a nuvem.",
+      "image": "assets/folk-interface.png",
+      "features": [
+        "Importa MP4, MP3, WAV, M4A, FLAC e outros formatos compatíveis.",
+        "Processa conteúdos longos em blocos, salvando o progresso para retomar.",
+        "Revisão por trechos e exportação TXT, SRT, VTT e JSON."
+      ],
+      "requirements": "Windows 10/11 x64 com AVX2. Android 7 ou superior. Precisa de espaço para a cópia local da mídia e dos modelos. Mantenha o aplicativo aberto durante o processamento.",
+      "note": "Modelo de voz incluído. Transcrição real validada no Windows. APKs compilados e conferidos; uso em aparelho Android físico ainda precisa de validação. A precisão depende do áudio: revise o texto.",
+      "tag": "folk-v1.0.0",
+      "prefix": "Folk-1.0.0",
+      "windows": true,
+      "featured": true,
+      "headline": "Voz em texto.",
+      "platforms": [
+        "windows",
+        "android"
+      ],
+      "downloads": [
+        [
+          "Windows x64 · ZIP",
+          "Windows-x64.zip",
+          "182,6 MiB"
+        ],
+        [
+          "Android ARM64 · recomendado",
+          "arm64.apk",
+          "89,4 MiB"
+        ],
+        [
+          "Android ARM32",
+          "arm32.apk",
+          "99,0 MiB"
+        ],
+        [
+          "Android x64",
+          "x64.apk",
+          "92,2 MiB"
+        ]
+      ]
+    },
+    "lake": {
+      "name": "Lake",
+      "version": "1.2.0",
+      "category": "ANIMAÇÃO VETORIAL",
+      "description": "Um estúdio para compor e animar no Windows e no Android. Dê vida a formas, textos e imagens com camadas, keyframes e curvas de animação.",
+      "image": "assets/lake-interface.png",
+      "features": [
+        "Formas vetoriais, texto, máscaras, grupos e importação de imagens e SVG.",
+        "Timeline com keyframes, curvas Bézier e animação ao longo de caminhos.",
+        "Projetos .lake editáveis e exportação PNG, SVG estático e SVG animado."
+      ],
+      "requirements": "Windows 10/11 x64 ou celular/tablet com Android 7 ou superior. Composições de até 30 segundos e 80 camadas. No Windows, extraia o ZIP completo e abra lake.exe.",
+      "note": "Não exporta MP4 ou GIF e não importa áudio ou vídeo. Compilação e testes automatizados aprovados no Windows. Diálogos nativos ainda sem validação manual completa; uso em hardware Android também precisa de validação. Exporte seus projetos .lake para backup.",
+      "tag": "lake-v1.2.0",
+      "prefix": "Lake-1.2.0",
+      "windows": true,
+      "featured": true,
+      "headline": "Ideias em movimento.",
+      "platforms": [
+        "windows",
+        "android"
+      ],
+      "downloads": [
+        [
+          "Windows x64 · ZIP",
+          "Windows-x64.zip",
+          "13,7 MiB"
+        ],
+        [
+          "Android ARM64 · recomendado",
+          "arm64.apk",
+          "17,8 MiB"
+        ],
+        [
+          "Android ARM32",
+          "arm32.apk",
+          "15,3 MiB"
+        ],
+        [
+          "Android x64",
+          "x64.apk",
+          "19,2 MiB"
+        ]
+      ]
+    },
+    "chain": {
+      "name": "Chain",
+      "version": "1.0.0",
+      "category": "COLEÇÕES DE LINKS",
+      "description": "Tudo o que inspira, em um lugar para conectar. Organize links em coleções com capas e leve suas ideias de um aparelho ao outro por conexão direta.",
+      "image": "assets/chain-interface.png",
+      "features": [
+        "Coleções com capas pessoais ou abstratas, categorias, notas, etiquetas, favoritos e busca.",
+        "Importação e exportação .chain com as capas incluídas para guardar backups.",
+        "Pareamento único, aparelhos lembrados e ações Enviar alterações / Puxar mais recentes por P2P criptografado."
+      ],
+      "requirements": "Windows 10/11 x64 ou celular/tablet Android 7+. Extraia o ZIP completo e abra chain.exe. Para transferir, mantenha o Chain aberto nos dois aparelhos. Wi-Fi ou hotspot na mesma rede funciona sem internet.",
+      "note": "Sem servidor intermediário. Entre redes diferentes, é necessário IPv6 acessível ou redirecionamento de porta; CGNAT e firewalls podem impedir a conexão. Edições divergentes viram cópias de conflito, sem propagar exclusões. Biblioteca e exportações locais não são criptografadas. 10 testes aprovados e inicialização Windows verificada; uso em Android físico ainda precisa de validação. APKs de uso pessoal com assinatura de desenvolvimento.",
+      "tag": "chain-v1.0.0",
+      "prefix": "Chain-1.0.0",
+      "windows": true,
+      "downloads": [
+        [
+          "Windows x64 · ZIP",
+          "Windows-x64.zip",
+          "13,9 MiB"
+        ],
+        [
+          "Android ARM64 · recomendado",
+          "arm64-v8a.apk",
+          "18,0 MiB"
+        ],
+        [
+          "Android ARM32",
+          "armeabi-v7a.apk",
+          "15,5 MiB"
+        ],
+        [
+          "Android x64",
+          "x86_64.apk",
+          "19,4 MiB"
+        ]
+      ],
+      "featured": true,
+      "headline": "Conecte suas referências.",
+      "platforms": [
+        "windows",
+        "android"
+      ]
+    },
+    "noon": {
+      "name": "Noon",
+      "version": "0.1.0",
+      "category": "SÍNTESE & COMPOSIÇÃO",
+      "description": "Dê forma ao que você ouve. Crie timbres, efeitos e pequenas trilhas em camadas, com uma interface visual que também é um script editável.",
+      "image": "assets/noon-interface.png",
+      "features": [
+        "Até 8 camadas com instrumentos por síntese, filtro, distorção, eco e reverb.",
+        "Guias de acordes e seções para compor; exportação WAV estéreo e projetos .noon editáveis.",
+        "Visual e Noon Script sincronizados. Copie para sua LLM, cole o resultado e aplique o script validado."
+      ],
+      "requirements": "Windows 10/11 x64 ou celular/tablet com Android 7 ou superior. Extraia o ZIP completo no Windows e abra noon.exe. O runtime Visual C++ acompanha o pacote.",
+      "note": "Primeira versão: até 16 compassos e 60 segundos de arranjo, mais a cauda dos efeitos. O teclado toca uma nota por vez. Sem samples importados, MIDI, VST, motor em tempo real ou reconhecimento de músicas. A LLM é usada externamente, por copiar/colar. Player real validado no Windows; uso em aparelho Android ainda precisa de validação. Exporte .noon para backup.",
+      "tag": "noon-v0.1.0",
+      "prefix": "Noon-0.1.0",
+      "windows": true,
+      "downloads": [
+        [
+          "Windows x64 · ZIP",
+          "Windows-x64.zip",
+          "13,2 MiB"
+        ],
+        [
+          "Android ARM64 · recomendado",
+          "arm64.apk",
+          "17,5 MiB"
+        ],
+        [
+          "Android ARM32",
+          "arm32.apk",
+          "15,0 MiB"
+        ],
+        [
+          "Android x64",
+          "x64.apk",
+          "18,9 MiB"
+        ]
+      ],
+      "featured": true,
+      "headline": "Dê forma ao som.",
+      "platforms": [
+        "windows",
+        "android"
+      ]
+    },
+    "pile": {
+      "name": "Pile",
+      "version": "0.1.0",
+      "category": "ARQUIVOS & COLEÇÕES",
+      "description": "Cada coisa no seu lugar. Organize uma pasta em categorias, crie coleções com capas e encontre o que vale guardar. A organização funciona no próprio aparelho.",
+      "image": "assets/pile-interface.png",
+      "features": [
+        "Pastas por categoria, nomes customizáveis, prévia e opção de organizar em um clique. Sem sobrescrita e com desfazer da última operação.",
+        "Coleções, etiquetas, cores e capas locais. Metadados EXIF podem criar grupos por ano e coordenadas aproximadas, sem consultar a internet.",
+        "Regras por tipo e dias desde a primeira detecção, executadas sob demanda. Duplicados por conteúdo ficam separados das imagens visualmente parecidas.",
+        "IA opcional para sugerir nomes e etiquetas em um lote de imagens escolhido por você, com autorização a cada envio."
+      ],
+      "requirements": "Windows 10/11 x64 ou celular/tablet Android 7+. No Windows, extraia o ZIP completo e abra pile.exe; o runtime C++ acompanha o pacote. No Android, escolha uma subpasta local pelo seletor do sistema; a raiz de Downloads e Android/data podem ser bloqueadas.",
+      "note": "Versão inicial: Android físico e chamadas reais de IA ainda precisam de validação. Regras não rodam em segundo plano. Cópias idênticas vão para revisão, sem exclusão automática; mover cópias não libera espaço. Etiquetas ficam no índice local e não acompanham movimentos externos. A IA usa OpenRouter e provedor externo: miniaturas sem EXIF, mas os pixels ainda podem conter dados pessoais. Exige chave própria e consentimento por lote; gratuidade e cotas variam. Não envie conteúdo sensível. Mantenha backups dos seus arquivos.",
+      "tag": "pile-v0.1.0",
+      "prefix": "Pile-0.1.0",
+      "windows": true,
+      "downloads": [
+        [
+          "Windows x64 · ZIP",
+          "Windows-x64.zip",
+          "13,4 MiB"
+        ],
+        [
+          "Android ARM64 · recomendado",
+          "arm64-v8a.apk",
+          "18,2 MiB"
+        ],
+        [
+          "Android ARM32",
+          "armeabi-v7a.apk",
+          "16,0 MiB"
+        ],
+        [
+          "Android x64",
+          "x86_64.apk",
+          "19,6 MiB"
+        ]
+      ],
+      "featured": true,
+      "headline": "Cada arquivo no seu lugar.",
+      "platforms": [
+        "windows",
+        "android"
+      ]
+    }
+  }
+}

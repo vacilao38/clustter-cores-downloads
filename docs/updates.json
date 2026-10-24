@@ -1,0 +1,66 @@
+{
+  "protocol": "clustter.update",
+  "schema": 1,
+  "apps": {
+    "folk": {
+      "windows": {
+        "version": "1.0.0",
+        "page": "https://vacilao38.github.io/clustter-cores-downloads/#folk",
+        "notes": "Veja as novidades e baixe a versão atual no site."
+      },
+      "android": {
+        "version": "1.0.0",
+        "page": "https://vacilao38.github.io/clustter-cores-downloads/#folk",
+        "notes": "Veja as novidades e baixe a versão atual no site."
+      }
+    },
+    "lake": {
+      "windows": {
+        "version": "1.2.0",
+        "page": "https://vacilao38.github.io/clustter-cores-downloads/#lake",
+        "notes": "Veja as novidades e baixe a versão atual no site."
+      },
+      "android": {
+        "version": "1.2.0",
+        "page": "https://vacilao38.github.io/clustter-cores-downloads/#lake",
+        "notes": "Veja as novidades e baixe a versão atual no site."
+      }
+    },
+    "chain": {
+      "windows": {
+        "version": "1.0.0",
+        "page": "https://vacilao38.github.io/clustter-cores-downloads/#chain",
+        "notes": "Veja as novidades e baixe a versão atual no site."
+      },
+      "android": {
+        "version": "1.0.0",
+        "page": "https://vacilao38.github.io/clustter-cores-downloads/#chain",
+        "notes": "Veja as novidades e baixe a versão atual no site."
+      }
+    },
+    "noon": {
+      "windows": {
+        "version": "0.1.0",
+        "page": "https://vacilao38.github.io/clustter-cores-downloads/#noon",
+        "notes": "Veja as novidades e baixe a versão atual no site."
+      },
+      "android": {
+        "version": "0.1.0",
+        "page": "https://vacilao38.github.io/clustter-cores-downloads/#noon",
+        "notes": "Veja as novidades e baixe a versão atual no site."
+      }
+    },
+    "pile": {
+      "windows": {
+        "version": "0.1.0",
+        "page": "https://vacilao38.github.io/clustter-cores-downloads/#pile",
+        "notes": "Veja as novidades e baixe a versão atual no site."
+      },
+      "android": {
+        "version": "0.1.0",
+        "page": "https://vacilao38.github.io/clustter-cores-downloads/#pile",
+        "notes": "Veja as novidades e baixe a versão atual no site."
+      }
+    }
+  }
+}
