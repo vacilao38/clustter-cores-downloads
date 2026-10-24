@@ -3,7 +3,7 @@
   "publishedProducts": [
     {
       "id": "folk",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "platforms": [
         "windows",
         "android"
@@ -11,7 +11,7 @@
     },
     {
       "id": "lake",
-      "version": "1.2.0",
+      "version": "1.2.1",
       "platforms": [
         "windows",
         "android"
@@ -19,7 +19,7 @@
     },
     {
       "id": "chain",
-      "version": "1.0.0",
+      "version": "1.1.1",
       "platforms": [
         "windows",
         "android"
@@ -27,7 +27,7 @@
     },
     {
       "id": "noon",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "platforms": [
         "windows",
         "android"
@@ -35,7 +35,7 @@
     },
     {
       "id": "pile",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "platforms": [
         "windows",
         "android"

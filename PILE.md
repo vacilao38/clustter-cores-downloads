@@ -1,23 +1,28 @@
-# Pile 0.1.0
+# Pile 0.1.1 — gerenciador visual de arquivos
 
-Organização local de arquivos para Windows 10/11 x64 e Android 7+ (celular e tablet).
+- Galeria e lista com seleção compartilhada, busca por nomes/caminhos/etiquetas como Cute e filtros por tipo.
+- Prévias de imagens com zoom, miniaturas e reprodução local de vídeos conforme os codecs do sistema.
+- Navegação e criação de pastas, mover/renomear com prévia, proteção contra sobrescrita e desfazer da última operação.
+- Interface mais clara, ações compactas, ícones leves e novo ícone de pastas empilhadas. IA permanece opcional e secundária.
+- Figurinhas estáticas Android: preparar e revisar imagens, salvar pacotes privados e abrir a confirmação oficial no WhatsApp/Business. A aceitação final em aparelho real ainda precisa de validação. O Windows permite revisão, sem prometer importação de pacotes.
+- Avisos de atualização no aplicativo e instalador Windows por usuário, com preservação das preferências.
 
-- Categorias e pastas customizáveis, prévia e opção de organizar em um clique.
-- Coleções, etiquetas, capas, temas e leitura local de EXIF por ano/coordenadas.
-- Regras opcionais executadas sob demanda, sem monitoramento em segundo plano.
-- Duplicados por SHA-256 separados das imagens visualmente parecidas. Cópias podem ir para revisão; nada é apagado automaticamente.
-- Histórico para desfazer a última operação, sem sobrescrita.
-- IA opcional via OpenRouter: chave própria e autorização por lote de imagens. Miniaturas sem EXIF, revisão das sugestões antes de aplicar. O conteúdo visual ainda pode conter dados pessoais; políticas de terceiros e cotas se aplicam.
+## Instalação
 
-## Instalar
+Windows 10/11 x64: use Pile-0.1.1-Windows-x64-Setup.exe e abra pelo menu Iniciar. Feche a versão antiga antes de instalar. Quem usa a versão ZIP deve fazer essa primeira instalação manual.
 
-Windows: baixe o ZIP, extraia a pasta completa e abra pile.exe. Mantenha DLLs e data juntos. Runtimes C++ acompanham o pacote.
-Android: ARM64 é recomendado para a maioria dos aparelhos atuais; ARM32 para dispositivos antigos compatíveis e x64 para essa arquitetura. APKs usam assinatura de desenvolvimento nesta versão inicial; instalação direta, sem Play Store.
+Android 7+: escolha ARM64 (maioria dos aparelhos), ARM32 ou x64. Os APKs mantêm o certificado da versão 0.1.0: instale por cima, sem desinstalar nem limpar dados. O aviso de atualizações começa nesta versão; versões antigas precisam desta atualização manual.
 
 ## Validação e limites
 
-Análise estática sem problemas, 27 testes de domínio/IO/widgets aprovados e 1 teste de integração Windows aprovado para organizar e desfazer pela interface. Layouts verificados em celular, tablet e desktop com texto ampliado. Builds Windows e Android compilados.
+32 testes automatizados e duas integrações Windows aprovados com arquivos sintéticos. Instalador testado em ambiente local isolado, inclusive preservação de arquivo extra ao desinstalar. Versões, ABIs, certificado, alinhamento e SHA-256 dos pacotes conferidos. Sem certificado de editor Windows; APKs ainda usam a assinatura de desenvolvimento preservada.
 
-Uso em Android físico e chamadas reais de IA ainda precisam de validação. O seletor Android pode bloquear a raiz de Downloads e Android/data; escolha uma subpasta local. Etiquetas ficam no índice do Pile e não acompanham movimentos externos. Desfazer não substitui backup.
+Android físico, permissões SAF e confirmação das figurinhas no WhatsApp/Business continuam pendentes. Pacotes de 3–30 imagens estáticas, até dez pacotes locais; animações/vídeos não entram no pacote estático. Não há remoção automática do fundo. Mantenha o Pile instalado. Codecs dependem do sistema.
 
-SHA256SUMS.txt permite conferir a integridade dos quatro pacotes. Não há telemetria ou backend do Pile. O código-fonte permanece em repositório privado por decisão do proprietário.
+Regras rodam sob demanda. Duplicados são comparados por conteúdo e separados sem exclusão automática. Etiquetas pertencem ao índice local e não acompanham movimentos externos. Mantenha backups. Copiar/lixeira e gestão completa de pastas ainda não estão disponíveis.
+
+Organização e prévias são locais. O aviso Update consulta metadados do catálogo público. IA usa OpenRouter/provedor externo somente com autorização por lote e chave própria; pixels ainda podem conter dados pessoais. Figurinhas são disponibilizadas ao WhatsApp após a ação explícita de adicionar. Nenhuma conversa ou banco do WhatsApp é acessado.
+
+Este release contém apenas binários e checksums. O repositório do código permanece privado. Confira SHA256SUMS.txt.
+
+<!-- clustter-update-release-v1 -->
