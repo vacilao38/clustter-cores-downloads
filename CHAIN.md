@@ -42,3 +42,12 @@ Corrigido o tooltip do X no aviso de atualização. Passar o mouse não causa ma
 Em Conexões, renomeie aparelhos já pareados. Em Revisar conflitos, compare as duas versões e escolha manter ambas, usar uma ou combinar links; depois use Enviar alterações. A combinação reúne exclusivos e pode recuperar links apagados só de um lado. Atualize os dois aparelhos. Exclusões não se propagam; histórico limitado a 64 revisões.
 
 Biblioteca e aplicativo → Movimento e sons permite desativar transições e experimentar sons originais com controle de volume. Sons começam desligados, navegação/cópia têm opção adicional e não há áudio ao passar o mouse. A redução de movimento do sistema tem prioridade. Android físico e modos silencioso/Não Perturbe ainda precisam de validação.
+
+
+# Chain 1.3.1
+
+Navegação com indicador deslizante, menus com fade integral e rolagem com desaceleração curta, sem barra persistente. Redução de movimento do sistema e preferência do aplicativo preservadas. Sem alteração dos protocolos de sincronização, conflitos ou sons.
+
+Validação: análise sem problemas, 37 testes Flutter, três integrações nativas Windows e instalação/substituição/desinstalação isoladas. APKs ARM64/ARM32/x64 conferidos: versões, certificado original e alinhamento nativo. Android físico e avaliação de FPS permanecem pendentes.
+
+Feche o Chain e instale o Setup no mesmo local para preservar os dados. Android: instale por cima com a mesma arquitetura; não desinstale. Código-fonte privado; esta release contém somente distribuição e checksums.
