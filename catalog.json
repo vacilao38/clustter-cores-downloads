@@ -19,7 +19,7 @@
     },
     {
       "id": "chain",
-      "version": "1.1.1",
+      "version": "1.2.0",
       "platforms": [
         "windows",
         "android"
@@ -39,6 +39,13 @@
       "platforms": [
         "windows",
         "android"
+      ]
+    },
+    {
+      "id": "chain-extension",
+      "version": "1.0.0",
+      "platforms": [
+        "browser"
       ]
     }
   ],

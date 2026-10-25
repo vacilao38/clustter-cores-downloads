@@ -1,4 +1,4 @@
-# Chain 1.1.1 · Windows e Android
+# Chain 1.2.0 · Windows e Android
 
 Windows 10/11 x64: use o instalador `.exe` e abra pelo menu Iniciar. Feche o Chain antes de atualizar; os dados de suporte são preservados. Android 7+: prefira ARM64 em aparelhos atuais, instalando o APK por cima sem desinstalar ou limpar dados.
 
@@ -21,3 +21,13 @@ Revisões divergentes geram cópias de conflito; exclusões não se propagam. Li
 O aviso de nova versão aparece dentro do app e abre a página oficial para download. A primeira atualização a partir de versões antigas é manual; não existe instalação automática ou notificação com o app fechado.
 
 Análise e testes automatizados aprovados; integração Windows validou conexão direta, TURN forçado e o aviso Update. Instalador e APKs foram compilados e conferidos. Teste celular/PC nas redes reais e uso em Android físico continuam pendentes. Instalador Windows sem certificado de editor; APKs mantêm a assinatura anterior de desenvolvimento. Confira `SHA256SUMS.txt`.
+
+## Copiar e guardar com menos passos
+
+Em **Regras de cópia** no menu da biblioteca, configure um padrão geral ou regra por hashtag, com texto antes/depois do endereço. Exemplo: `M!play ` antes do link. A primeira regra de etiqueta ativa tem prioridade; o padrão vale para os demais. Espaços e quebras são preservados. Use o botão Copiar para o texto preparado ou **Copiar apenas endereço** para ignorar a regra. A colagem continua sendo uma ação sua no aplicativo de destino. Regras ficam neste aparelho.
+
+No Android, escolha **Compartilhar → Guardar no Chain** no YouTube/navegador. Revise coleção existente/nova, título, trilha e etiquetas na janela rápida e confirme. Não precisa navegar pela biblioteca; não há monitoramento da área de transferência, sobreposição ou serviço permanente. No Windows, use [Chain Companion](CHAIN-COMPANION.md) para Chrome/Edge; o Setup 1.2 registra a ponte local. A abertura da janela não significa que o link já foi salvo: confirme nela.
+
+A trilha acompanha links em exportações/transferências entre versões atualizadas. Atualize ambos os aparelhos para preservar esse campo nas edições. Salvar em uma janela não descarta inclusões de outra; editores de coleção antigos pedem reabrir antes de gravar.
+
+Análise, 19 testes automatizados e duas integrações Windows aprovados. Ponte nativa real com validação de origem/payload e janela visível confirmada. Android físico e fluxo completo após carregar a extensão no navegador ainda precisam de validação.

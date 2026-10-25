@@ -2,7 +2,7 @@
 
 Canal público de distribuição dos aplicativos selecionados de Folk, Lake, Chain, Noon e Pile. O site é [Clustter cores](https://vacilao38.github.io/clustter-cores-downloads/).
 
-Versões atuais: **Folk 1.0.1 · Lake 1.2.1 · Chain 1.1.1 · Noon 0.1.1 · Pile 0.1.1**. Cada release inclui instalador Windows x64 `.exe`, APKs Android ARM64/ARM32/x64 e `SHA256SUMS.txt`. Builds e downloads antigos continuam no histórico.
+Versões atuais: **Folk 1.0.1 · Lake 1.2.1 · Chain 1.2.0 · Noon 0.1.1 · Pile 0.1.1**. Cada release inclui instalador Windows x64 `.exe`, APKs Android ARM64/ARM32/x64 e `SHA256SUMS.txt`. Builds e downloads antigos continuam no histórico.
 
 O instalador Windows é por usuário, cria atalho no menu Iniciar e preserva projetos/preferências ao atualizar. Feche o aplicativo antes de instalar no mesmo local. Usuários de ZIP fazem esta primeira instalação manual. No Android, instale por cima sem desinstalar nem limpar dados: os APKs mantêm o certificado anterior de desenvolvimento. Android físico permanece pendente de validação.
 
@@ -17,3 +17,9 @@ O protocolo **Update** avisa dentro do app sobre uma versão superior publicada 
 - [Pile](PILE.md): gerenciador visual, prévias e organização local; confira os limites de Android, IA e figurinhas no guia.
 
 Licenças e avisos acompanham os aplicativos. Consulte os requisitos e limites na apresentação de cada produto antes de baixar.
+
+## Chain Companion 1.0.0
+
+Extensão de captura para Chrome/Edge no Windows, distribuída em ZIP para carregar sem compactação. Requer Chain 1.2.0 instalado pelo Setup. Uma janela rápida revisa coleção, título, trilha e etiquetas antes de salvar. Não está publicada em lojas de extensão. [Instalação e limites](CHAIN-COMPANION.md).
+
+Chain 1.2 também inclui regras de cópia com texto antes/depois, padrão ou por hashtag, e compartilhamento Android em janela própria. Validação em Android físico e fluxo completo com a extensão carregada nos navegadores permanecem pendentes.
