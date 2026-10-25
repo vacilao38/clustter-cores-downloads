@@ -25,3 +25,5 @@ Extensão de captura para Chrome/Edge no Windows, distribuída em ZIP para carre
 Chain 1.2 também inclui regras de cópia com texto antes/depois, padrão ou por hashtag, e compartilhamento Android em janela própria. Validação em Android físico e fluxo completo com a extensão carregada nos navegadores permanecem pendentes.
 
 Chain 1.2.1 corrige o erro de desenho ao passar o mouse no X do aviso de atualização; fechar o aviso preserva a tela em uso. Companion 1.0.0 continua compatível.
+
+Chain 1.3.0: apelidos de aparelhos, comparação/resolução de conflitos, transições com redução de movimento e sons opcionais. Pacotes Windows/Android e feed atualizados; Companion 1.0.0 preservado.

@@ -35,3 +35,10 @@ Análise, 19 testes automatizados e duas integrações Windows aprovados. Ponte 
 ## Correção 1.2.1
 
 Corrigido o tooltip do X no aviso de atualização. Passar o mouse não causa mais erro de desenho/área branca e fechar mantém a tela/rascunho. Regressão comprovada antes/depois e integração Windows aprovadas. Instale o Setup atualizado ou o APK por cima; bibliotecas e preferências preservadas.
+
+
+## Chain 1.3.0
+
+Em Conexões, renomeie aparelhos já pareados. Em Revisar conflitos, compare as duas versões e escolha manter ambas, usar uma ou combinar links; depois use Enviar alterações. A combinação reúne exclusivos e pode recuperar links apagados só de um lado. Atualize os dois aparelhos. Exclusões não se propagam; histórico limitado a 64 revisões.
+
+Biblioteca e aplicativo → Movimento e sons permite desativar transições e experimentar sons originais com controle de volume. Sons começam desligados, navegação/cópia têm opção adicional e não há áudio ao passar o mouse. A redução de movimento do sistema tem prioridade. Android físico e modos silencioso/Não Perturbe ainda precisam de validação.
