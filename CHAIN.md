@@ -1,4 +1,4 @@
-# Chain 1.2.0 · Windows e Android
+# Chain 1.2.1 · Windows e Android
 
 Windows 10/11 x64: use o instalador `.exe` e abra pelo menu Iniciar. Feche o Chain antes de atualizar; os dados de suporte são preservados. Android 7+: prefira ARM64 em aparelhos atuais, instalando o APK por cima sem desinstalar ou limpar dados.
 
@@ -31,3 +31,7 @@ No Android, escolha **Compartilhar → Guardar no Chain** no YouTube/navegador. 
 A trilha acompanha links em exportações/transferências entre versões atualizadas. Atualize ambos os aparelhos para preservar esse campo nas edições. Salvar em uma janela não descarta inclusões de outra; editores de coleção antigos pedem reabrir antes de gravar.
 
 Análise, 19 testes automatizados e duas integrações Windows aprovados. Ponte nativa real com validação de origem/payload e janela visível confirmada. Android físico e fluxo completo após carregar a extensão no navegador ainda precisam de validação.
+
+## Correção 1.2.1
+
+Corrigido o tooltip do X no aviso de atualização. Passar o mouse não causa mais erro de desenho/área branca e fechar mantém a tela/rascunho. Regressão comprovada antes/depois e integração Windows aprovadas. Instale o Setup atualizado ou o APK por cima; bibliotecas e preferências preservadas.
