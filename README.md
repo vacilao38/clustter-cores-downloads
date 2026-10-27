@@ -1,5 +1,9 @@
 # Clustter cores — Downloads
 
+## Bridge 0.1.0 · 27/10/2026
+
+[Bridge](BRIDGE.md): teclado e mouse do Windows no Android por conexão direta na rede local. [Download na Clustter](https://vacilao38.github.io/clustter-cores-downloads/#bridge). Setup Windows e APKs ARM64, ARM32 e x64 com hashes verificados. Acessibilidade e Teclado Bridge são ativados manualmente. Gestos, IME e segundo plano ainda precisam de ensaio em Android físico. Código-fonte privado por pedido explícito do usuário; publicação dos binários autorizada no mesmo pedido.
+
 Canal público de distribuição dos aplicativos selecionados de Folk, Lake, Chain, Noon e Pile. O site é [Clustter cores](https://vacilao38.github.io/clustter-cores-downloads/).
 
 Versões atuais: **Folk 1.0.1 · Lake 1.2.1 · Chain 1.3.1 · Noon 0.1.1 · Pile 0.3.0**. Cada release inclui instalador Windows x64 `.exe`, APKs Android ARM64/ARM32/x64 e `SHA256SUMS.txt`. Builds e downloads antigos continuam no histórico.
